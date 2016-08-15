@@ -1,0 +1,25 @@
+{
+  "name": "run-script",
+  "main": "./lib/run-script",
+  "version": "1.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+    "atom"
+  ],
+  "activationCommands": {
+    "atom-workspace": "run-script:activate"
+  },
+  "repository": "https://github.com/legodude17/atom-run-script",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "eslintConfig": {
+    "globals": {
+      "atom": true
+    },
+    "parserOptions": {"ecmaVersion": 6}
+  }
+}
