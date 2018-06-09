@@ -3,6 +3,9 @@
   "main": "./lib/run-script",
   "version": "2.0.0",
   "description": "A short description of your package",
+  "scripts": {
+    "test": "echo 'test'"
+  },
   "keywords": [
     "atom"
   ],
@@ -14,7 +17,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "execa": "^0.10.0"
+  },
   "eslintConfig": {
     "globals": {
       "atom": true
